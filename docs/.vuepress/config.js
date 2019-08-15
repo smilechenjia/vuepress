@@ -1,10 +1,10 @@
 module.exports = {
   title: '微笑的蛋壳呀',
-  description: '技术小白摸爬滚打的记录',
+  description: '饭要一口一口吃，路要一步一步走',
   serviceWorker: true,
-  head: [ // 注入到当前页面的 HTML <head> 中的标签
-    ['link', { rel: 'icon', href: '/img/logo.jpg' }], // 左上角的头像
-  ],
+  // head: [ // 注入到当前页面的 HTML <head> 中的标签
+  //   ['link', { rel: 'icon', href: '/img/head.jpeg' }], // 标签里的头像
+  // ],
   base: '/', // 这是部署到github相关的配置
   markdown: {
     lineNumbers: false // 代码块显示行号
@@ -28,7 +28,7 @@ module.exports = {
       ],
       '/backEnd/': [
         '',
-        'test'
+        'macjava'
        ]
     },// 侧边栏配置
     sidebarDepth: 2, // 侧边栏显示2级
