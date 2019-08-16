@@ -24,7 +24,7 @@ module.exports = {
     sidebar: {
       '/frontEnd/':[
         '',
-        'test'
+        'rnmac'
       ],
       '/backEnd/': [
         '',
