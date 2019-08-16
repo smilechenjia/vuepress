@@ -26,6 +26,7 @@ module.exports = {
         '',
         'nginx',
         'node',
+        
         'rnmac'
       ],
       '/backEnd/': [
