@@ -5,7 +5,7 @@ module.exports = {
   // head: [ // 注入到当前页面的 HTML <head> 中的标签
   //   ['link', { rel: 'icon', href: '/img/head.jpeg' }], // 标签里的头像
   // ],
-  base: '/', // 这是部署到github相关的配置
+  base: '/myblog/', // 这是部署到github相关的配置
   markdown: {
     lineNumbers: false // 代码块显示行号
   },
@@ -25,9 +25,14 @@ module.exports = {
       '/frontEnd/':[
         '',
         'nginx',
+        'vue',
         'node',
-        
-        'rnmac'
+        'nginxh5',
+        'mobile',
+        'rnmac',
+        'rn1',
+        'face',
+        'ipu'
       ],
       '/backEnd/': [
         '',

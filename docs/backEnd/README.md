@@ -13,14 +13,17 @@ git clone url
 git config --global user.name "your name"
 git config --global user.email "your email address"
 ```
-* 连接远程仓库
-```
-git remote add origin https://github.com/smilechenjia/vuepress.git
-```
+
 * 创建空的本地仓库
 ```
 git init 
 ```
+
+* 连接远程仓库
+```
+git remote add origin https://github.com/smilechenjia/vuepress.git
+```
+
 * 将项目所有文件添加到缓存中
 ```
 git add .
@@ -51,3 +54,20 @@ cat ~/.ssh/id_rsa.pub
 登陆github,依此点击头像->settings->new SSH
 
 把新生成的公钥复制粘贴到这里
+## 新建分支
+```
+git checkout -b branchname
+git push origin branchname:branchname
+```
+## 删除分支
+```
+git push origin --delete branchname
+```
+## 切换分支
+```
+git checkout branchname
+```
+## 合并分支
+```
+git merge branchname
+```

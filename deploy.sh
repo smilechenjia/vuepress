@@ -10,4 +10,4 @@ git add -A
 git commit -m 'deploy'
 
 # 推到你仓库的 master 分支
-git push -f git@github.com:smilechenjia/smilechenjia.github.io.git master
+git push -f https://gitee.com/smilechenjia/myblog.git master
